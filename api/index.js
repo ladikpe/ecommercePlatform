@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
-// Example route yes  of  
+// Example route
 app.get('/', (req, res) => {
   res.send('Welcome to the E-commerce API!');
 });
